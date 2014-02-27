@@ -5,7 +5,7 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <script src='./assets/0.7.1/application.js' type='text/javascript'></script>    
     <link href='./assets/0.7.1/application.css' media='screen, projection, print' rel='stylesheet' type='text/css'>
-    <link rel="shortcut icon" type="image/png" href="./assets/0.7.1/favicon_yellow.png" />
+    <link rel="shortcut icon" type="image/png" href="./assets/0.7.1/favicon_green.png" />
     <link rel="icon" type="image/png" href="./assets/0.7.1/favicon.png" />
   </head>
   
@@ -14,27 +14,27 @@
       <img src="./assets/0.7.1/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2014-02-27T20:14:19+00:00">2014-02-27T20:14:19+00:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2014-02-27T20:18:41+00:00">2014-02-27T20:18:41+00:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
         <div class="file_list_container" id="AllFiles">
   <h2>
     <span class="group_name">All Files</span>
-    (<span class="covered_percent"><span class="yellow">89.96%</span></span>
+    (<span class="covered_percent"><span class="green">90.22%</span></span>
      covered at
      <span class="covered_strength">
        <span class="green">
-         7.7
+         7.71
        </span>
     </span> hits/line)
   </h2>
   <a name="AllFiles"></a>
   <div>
     <b>42</b> files in total.
-    <b>936</b> relevant lines. 
-    <span class="green"><b>842</b> lines covered</span> and
-    <span class="red"><b>94</b> lines missed </span>
+    <b>941</b> relevant lines. 
+    <span class="green"><b>849</b> lines covered</span> and
+    <span class="red"><b>92</b> lines missed </span>
   </div>
   <table class="file_list">
     <thead>
@@ -222,12 +222,12 @@
       
       <tr>
         <td class="strong"><a href="#92b5162537ed639a53f0590a690a760341599bb0" class="src_link" title="lib/tasks/sort.rb">lib/tasks/sort.rb</a></td>
-        <td class="red strong">66.67 %</td>
-        <td>166</td>
-        <td>6</td>
-        <td>4</td>
-        <td>2</td>
-        <td>0.7</td>
+        <td class="green strong">100.0 %</td>
+        <td>168</td>
+        <td>7</td>
+        <td>7</td>
+        <td>0</td>
+        <td>1.0</td>
       </tr>
       
       <tr>
@@ -323,9 +323,9 @@
       <tr>
         <td class="strong"><a href="#7c9985e3a8ff019eb503fbd86cb47dab45e9cf0d" class="src_link" title="spec/lib/code_generation/task_kernel_generator_spec.rb">spec/lib/code_generation/task_kernel_generator_spec.rb</a></td>
         <td class="green strong">100.0 %</td>
-        <td>46</td>
-        <td>26</td>
-        <td>26</td>
+        <td>52</td>
+        <td>30</td>
+        <td>30</td>
         <td>0</td>
         <td>1.2</td>
       </tr>
@@ -8883,11 +8883,11 @@
         <div class="source_table" id="92b5162537ed639a53f0590a690a760341599bb0">
   <div class="header">
     <h3>lib/tasks/sort.rb</h3>
-    <h4><span class="red">66.67 %</span> covered</h4>
+    <h4><span class="green">100.0 %</span> covered</h4>
     <div>
-      <b>6</b> relevant lines. 
-      <span class="green"><b>4</b> lines covered</span> and
-      <span class="red"><b>2</b> lines missed.</span>
+      <b>7</b> relevant lines. 
+      <span class="green"><b>7</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
   
@@ -8897,994 +8897,1006 @@
         <li class="covered" data-hits="1" data-linenumber="1">
           <span class="hits">1</span>
           
-          <code class="ruby">class Sort</code>
+          <code class="ruby">module Hadope</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="2">
           <span class="hits">1</span>
           
-          <code class="ruby">  attr_accessor :type</code>
+          <code class="ruby">  class Sort</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="3">
+        <li class="covered" data-hits="1" data-linenumber="3">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    attr_accessor :type</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="4">
           
           
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="4">
+        <li class="covered" data-hits="1" data-linenumber="5">
           <span class="hits">1</span>
           
-          <code class="ruby">  def initialize(type: :int, order: :ascending)</code>
+          <code class="ruby">    def initialize(type: :int, order: :ascending)</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="5">
+        <li class="covered" data-hits="1" data-linenumber="6">
+          <span class="hits">1</span>
           
-          
-          <code class="ruby">    @type = type</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="6">
-          
-          
-          <code class="ruby">  end</code>
+          <code class="ruby">      @type = type</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="7">
           
           
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="8">
+          
+          
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="8">
+        <li class="covered" data-hits="1" data-linenumber="9">
           <span class="hits">1</span>
           
-          <code class="ruby">  def to_kernel</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="9">
-          
-          
-          <code class="ruby">&lt;&lt;KERNEL</code>
+          <code class="ruby">    def to_kernel</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="10">
           
           
-          <code class="ruby">  /* ============================================================</code>
+          <code class="ruby">&lt;&lt;KERNEL</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="11">
           
           
-          <code class="ruby"></code>
+          <code class="ruby">    /* ============================================================</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="12">
           
           
-          <code class="ruby">  Copyright (c) 2009-2010 Advanced Micro Devices, Inc.  All rights reserved.</code>
+          <code class="ruby"></code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="13">
           
           
-          <code class="ruby"></code>
+          <code class="ruby">    Copyright (c) 2009-2010 Advanced Micro Devices, Inc.  All rights reserved.</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="14">
           
           
-          <code class="ruby">  Redistribution and use of this material is permitted under the following</code>
+          <code class="ruby"></code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="15">
           
           
-          <code class="ruby">  conditions:</code>
+          <code class="ruby">    Redistribution and use of this material is permitted under the following</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="16">
           
           
-          <code class="ruby"></code>
+          <code class="ruby">    conditions:</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="17">
           
           
-          <code class="ruby">  Redistributions must retain the above copyright notice and all terms of this</code>
+          <code class="ruby"></code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="18">
           
           
-          <code class="ruby">  license.</code>
+          <code class="ruby">    Redistributions must retain the above copyright notice and all terms of this</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="19">
           
           
-          <code class="ruby"></code>
+          <code class="ruby">    license.</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="20">
           
           
-          <code class="ruby">  In no event shall anyone redistributing or accessing or using this material</code>
+          <code class="ruby"></code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="21">
           
           
-          <code class="ruby">  commence or participate in any arbitration or legal action relating to this</code>
+          <code class="ruby">    In no event shall anyone redistributing or accessing or using this material</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="22">
           
           
-          <code class="ruby">  material against Advanced Micro Devices, Inc. or any copyright holders or</code>
+          <code class="ruby">    commence or participate in any arbitration or legal action relating to this</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="23">
           
           
-          <code class="ruby">  contributors. The foregoing shall survive any expiration or termination of</code>
+          <code class="ruby">    material against Advanced Micro Devices, Inc. or any copyright holders or</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="24">
           
           
-          <code class="ruby">  this license or any agreement or access or use related to this material.</code>
+          <code class="ruby">    contributors. The foregoing shall survive any expiration or termination of</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="25">
           
           
-          <code class="ruby"></code>
+          <code class="ruby">    this license or any agreement or access or use related to this material.</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="26">
           
           
-          <code class="ruby">  ANY BREACH OF ANY TERM OF THIS LICENSE SHALL RESULT IN THE IMMEDIATE REVOCATION</code>
+          <code class="ruby"></code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="27">
           
           
-          <code class="ruby">  OF ALL RIGHTS TO REDISTRIBUTE, ACCESS OR USE THIS MATERIAL.</code>
+          <code class="ruby">    ANY BREACH OF ANY TERM OF THIS LICENSE SHALL RESULT IN THE IMMEDIATE REVOCATION</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="28">
           
           
-          <code class="ruby"></code>
+          <code class="ruby">    OF ALL RIGHTS TO REDISTRIBUTE, ACCESS OR USE THIS MATERIAL.</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="29">
           
           
-          <code class="ruby">  THIS MATERIAL IS PROVIDED BY ADVANCED MICRO DEVICES, INC. AND ANY COPYRIGHT</code>
+          <code class="ruby"></code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="30">
           
           
-          <code class="ruby">  HOLDERS AND CONTRIBUTORS &quot;AS IS&quot; IN ITS CURRENT CONDITION AND WITHOUT ANY</code>
+          <code class="ruby">    THIS MATERIAL IS PROVIDED BY ADVANCED MICRO DEVICES, INC. AND ANY COPYRIGHT</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="31">
           
           
-          <code class="ruby">  REPRESENTATIONS, GUARANTEE, OR WARRANTY OF ANY KIND OR IN ANY WAY RELATED TO</code>
+          <code class="ruby">    HOLDERS AND CONTRIBUTORS &quot;AS IS&quot; IN ITS CURRENT CONDITION AND WITHOUT ANY</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="32">
           
           
-          <code class="ruby">  SUPPORT, INDEMNITY, ERROR FREE OR UNINTERRUPTED OPERA TION, OR THAT IT IS FREE</code>
+          <code class="ruby">    REPRESENTATIONS, GUARANTEE, OR WARRANTY OF ANY KIND OR IN ANY WAY RELATED TO</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="33">
           
           
-          <code class="ruby">  FROM DEFECTS OR VIRUSES.  ALL OBLIGATIONS ARE HEREBY DISCLAIMED - WHETHER</code>
+          <code class="ruby">    SUPPORT, INDEMNITY, ERROR FREE OR UNINTERRUPTED OPERA TION, OR THAT IT IS FREE</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="34">
           
           
-          <code class="ruby">  EXPRESS, IMPLIED, OR STATUTORY - INCLUDING, BUT NOT LIMITED TO, ANY IMPLIED</code>
+          <code class="ruby">    FROM DEFECTS OR VIRUSES.  ALL OBLIGATIONS ARE HEREBY DISCLAIMED - WHETHER</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="35">
           
           
-          <code class="ruby">  WARRANTIES OF TITLE, MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE,</code>
+          <code class="ruby">    EXPRESS, IMPLIED, OR STATUTORY - INCLUDING, BUT NOT LIMITED TO, ANY IMPLIED</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="36">
           
           
-          <code class="ruby">  ACCURACY, COMPLETENESS, OPERABILITY, QUALITY OF SERVICE, OR NON-INFRINGEMENT.</code>
+          <code class="ruby">    WARRANTIES OF TITLE, MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE,</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="37">
           
           
-          <code class="ruby">  IN NO EVENT SHALL ADVANCED MICRO DEVICES, INC. OR ANY COPYRIGHT HOLDERS OR</code>
+          <code class="ruby">    ACCURACY, COMPLETENESS, OPERABILITY, QUALITY OF SERVICE, OR NON-INFRINGEMENT.</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="38">
           
           
-          <code class="ruby">  CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, PUNITIVE,</code>
+          <code class="ruby">    IN NO EVENT SHALL ADVANCED MICRO DEVICES, INC. OR ANY COPYRIGHT HOLDERS OR</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="39">
           
           
-          <code class="ruby">  EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT</code>
+          <code class="ruby">    CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, PUNITIVE,</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="40">
           
           
-          <code class="ruby">  OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, REVENUE, DATA, OR PROFITS; OR</code>
+          <code class="ruby">    EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="41">
           
           
-          <code class="ruby">  BUSINESS INTERRUPTION) HOWEVER CAUSED OR BASED ON ANY THEORY OF LIABILITY</code>
+          <code class="ruby">    OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, REVENUE, DATA, OR PROFITS; OR</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="42">
           
           
-          <code class="ruby">  ARISING IN ANY WAY RELATED TO THIS MATERIAL, EVEN IF ADVISED OF THE POSSIBILITY</code>
+          <code class="ruby">    BUSINESS INTERRUPTION) HOWEVER CAUSED OR BASED ON ANY THEORY OF LIABILITY</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="43">
           
           
-          <code class="ruby">  OF SUCH DAMAGE. THE ENTIRE AND AGGREGATE LIABILITY OF ADVANCED MICRO DEVICES,</code>
+          <code class="ruby">    ARISING IN ANY WAY RELATED TO THIS MATERIAL, EVEN IF ADVISED OF THE POSSIBILITY</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="44">
           
           
-          <code class="ruby">  INC. AND ANY COPYRIGHT HOLDERS AND CONTRIBUTORS SHALL NOT EXCEED TEN DOLLARS</code>
+          <code class="ruby">    OF SUCH DAMAGE. THE ENTIRE AND AGGREGATE LIABILITY OF ADVANCED MICRO DEVICES,</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="45">
           
           
-          <code class="ruby">  (US $10.00). ANYONE REDISTRIBUTING OR ACCESSING OR USING THIS MATERIAL ACCEPTS</code>
+          <code class="ruby">    INC. AND ANY COPYRIGHT HOLDERS AND CONTRIBUTORS SHALL NOT EXCEED TEN DOLLARS</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="46">
           
           
-          <code class="ruby">  THIS ALLOCATION OF RISK AND AGREES TO RELEASE ADVANCED MICRO DEVICES, INC. AND</code>
+          <code class="ruby">    (US $10.00). ANYONE REDISTRIBUTING OR ACCESSING OR USING THIS MATERIAL ACCEPTS</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="47">
           
           
-          <code class="ruby">  ANY COPYRIGHT HOLDERS AND CONTRIBUTORS FROM ANY AND ALL LIABILITIES,</code>
+          <code class="ruby">    THIS ALLOCATION OF RISK AND AGREES TO RELEASE ADVANCED MICRO DEVICES, INC. AND</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="48">
           
           
-          <code class="ruby">  OBLIGATIONS, CLAIMS, OR DEMANDS IN EXCESS OF TEN DOLLARS (US $10.00). THE</code>
+          <code class="ruby">    ANY COPYRIGHT HOLDERS AND CONTRIBUTORS FROM ANY AND ALL LIABILITIES,</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="49">
           
           
-          <code class="ruby">  FOREGOING ARE ESSENTIAL TERMS OF THIS LICENSE AND, IF ANY OF THESE TERMS ARE</code>
+          <code class="ruby">    OBLIGATIONS, CLAIMS, OR DEMANDS IN EXCESS OF TEN DOLLARS (US $10.00). THE</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="50">
           
           
-          <code class="ruby">  CONSTRUED AS UNENFORCEABLE, FAIL IN ESSENTIAL PURPOSE, OR BECOME VOID OR</code>
+          <code class="ruby">    FOREGOING ARE ESSENTIAL TERMS OF THIS LICENSE AND, IF ANY OF THESE TERMS ARE</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="51">
           
           
-          <code class="ruby">  DETRIMENTAL TO ADVANCED MICRO DEVICES, INC. OR ANY COPYRIGHT HOLDERS OR</code>
+          <code class="ruby">    CONSTRUED AS UNENFORCEABLE, FAIL IN ESSENTIAL PURPOSE, OR BECOME VOID OR</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="52">
           
           
-          <code class="ruby">  CONTRIBUTORS FOR ANY REASON, THEN ALL RIGHTS TO REDISTRIBUTE, ACCESS OR USE</code>
+          <code class="ruby">    DETRIMENTAL TO ADVANCED MICRO DEVICES, INC. OR ANY COPYRIGHT HOLDERS OR</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="53">
           
           
-          <code class="ruby">  THIS MATERIAL SHALL TERMINATE IMMEDIATELY. MOREOVER, THE FOREGOING SHALL</code>
+          <code class="ruby">    CONTRIBUTORS FOR ANY REASON, THEN ALL RIGHTS TO REDISTRIBUTE, ACCESS OR USE</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="54">
           
           
-          <code class="ruby">  SURVIVE ANY EXPIRATION OR TERMINATION OF THIS LICENSE OR ANY AGREEMENT OR</code>
+          <code class="ruby">    THIS MATERIAL SHALL TERMINATE IMMEDIATELY. MOREOVER, THE FOREGOING SHALL</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="55">
           
           
-          <code class="ruby">  ACCESS OR USE RELATED TO THIS MATERIAL.</code>
+          <code class="ruby">    SURVIVE ANY EXPIRATION OR TERMINATION OF THIS LICENSE OR ANY AGREEMENT OR</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="56">
           
           
-          <code class="ruby"></code>
+          <code class="ruby">    ACCESS OR USE RELATED TO THIS MATERIAL.</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="57">
           
           
-          <code class="ruby">  NOTICE IS HEREBY PROVIDED, AND BY REDISTRIBUTING OR ACCESSING OR USING THIS</code>
+          <code class="ruby"></code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="58">
           
           
-          <code class="ruby">  MATERIAL SUCH NOTICE IS ACKNOWLEDGED, THAT THIS MATERIAL MAY BE SUBJECT TO</code>
+          <code class="ruby">    NOTICE IS HEREBY PROVIDED, AND BY REDISTRIBUTING OR ACCESSING OR USING THIS</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="59">
           
           
-          <code class="ruby">  RESTRICTIONS UNDER THE LAWS AND REGULATIONS OF THE UNITED STATES OR OTHER</code>
+          <code class="ruby">    MATERIAL SUCH NOTICE IS ACKNOWLEDGED, THAT THIS MATERIAL MAY BE SUBJECT TO</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="60">
           
           
-          <code class="ruby">  COUNTRIES, WHICH INCLUDE BUT ARE NOT LIMITED TO, U.S. EXPORT CONTROL LAWS SUCH</code>
+          <code class="ruby">    RESTRICTIONS UNDER THE LAWS AND REGULATIONS OF THE UNITED STATES OR OTHER</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="61">
           
           
-          <code class="ruby">  AS THE EXPORT ADMINISTRATION REGULATIONS AND NATIONAL SECURITY CONTROLS AS</code>
+          <code class="ruby">    COUNTRIES, WHICH INCLUDE BUT ARE NOT LIMITED TO, U.S. EXPORT CONTROL LAWS SUCH</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="62">
           
           
-          <code class="ruby">  DEFINED THEREUNDER, AS WELL AS STATE DEPARTMENT CONTROLS UNDER THE U.S.</code>
+          <code class="ruby">    AS THE EXPORT ADMINISTRATION REGULATIONS AND NATIONAL SECURITY CONTROLS AS</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="63">
           
           
-          <code class="ruby">  MUNITIONS LIST. THIS MATERIAL MAY NOT BE USED, RELEASED, TRANSFERRED, IMPORTED,</code>
+          <code class="ruby">    DEFINED THEREUNDER, AS WELL AS STATE DEPARTMENT CONTROLS UNDER THE U.S.</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="64">
           
           
-          <code class="ruby">  EXPORTED AND/OR RE-EXPORTED IN ANY MANNER PROHIBITED UNDER ANY APPLICABLE LAWS,</code>
+          <code class="ruby">    MUNITIONS LIST. THIS MATERIAL MAY NOT BE USED, RELEASED, TRANSFERRED, IMPORTED,</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="65">
           
           
-          <code class="ruby">  INCLUDING U.S. EXPORT CONTROL LAWS REGARDING SPECIFICALLY DESIGNATED PERSONS,</code>
+          <code class="ruby">    EXPORTED AND/OR RE-EXPORTED IN ANY MANNER PROHIBITED UNDER ANY APPLICABLE LAWS,</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="66">
           
           
-          <code class="ruby">  COUNTRIES AND NATIONALS OF COUNTRIES SUBJECT TO NATIONAL SECURITY CONTROLS.</code>
+          <code class="ruby">    INCLUDING U.S. EXPORT CONTROL LAWS REGARDING SPECIFICALLY DESIGNATED PERSONS,</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="67">
           
           
-          <code class="ruby">  MOREOVER, THE FOREGOING SHALL SURVIVE ANY EXPIRATION OR TERMINATION OF ANY</code>
+          <code class="ruby">    COUNTRIES AND NATIONALS OF COUNTRIES SUBJECT TO NATIONAL SECURITY CONTROLS.</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="68">
           
           
-          <code class="ruby">  LICENSE OR AGREEMENT OR ACCESS OR USE RELATED TO THIS MATERIAL.</code>
+          <code class="ruby">    MOREOVER, THE FOREGOING SHALL SURVIVE ANY EXPIRATION OR TERMINATION OF ANY</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="69">
           
           
-          <code class="ruby"></code>
+          <code class="ruby">    LICENSE OR AGREEMENT OR ACCESS OR USE RELATED TO THIS MATERIAL.</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="70">
           
           
-          <code class="ruby">  NOTICE REGARDING THE U.S. GOVERNMENT AND DOD AGENCIES: This material is</code>
+          <code class="ruby"></code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="71">
           
           
-          <code class="ruby">  provided with &quot;RESTRICTED RIGHTS&quot; and/or &quot;LIMITED RIGHTS&quot; as applicable to</code>
+          <code class="ruby">    NOTICE REGARDING THE U.S. GOVERNMENT AND DOD AGENCIES: This material is</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="72">
           
           
-          <code class="ruby">  computer software and technical data, respectively. Use, duplication,</code>
+          <code class="ruby">    provided with &quot;RESTRICTED RIGHTS&quot; and/or &quot;LIMITED RIGHTS&quot; as applicable to</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="73">
           
           
-          <code class="ruby">  distribution or disclosure by the U.S. Government and/or DOD agencies is</code>
+          <code class="ruby">    computer software and technical data, respectively. Use, duplication,</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="74">
           
           
-          <code class="ruby">  subject to the full extent of restrictions in all applicable regulations,</code>
+          <code class="ruby">    distribution or disclosure by the U.S. Government and/or DOD agencies is</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="75">
           
           
-          <code class="ruby">  including those found at FAR52.227 and DFARS252.227 et seq. and any successor</code>
+          <code class="ruby">    subject to the full extent of restrictions in all applicable regulations,</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="76">
           
           
-          <code class="ruby">  regulations thereof. Use of this material by the U.S. Government and/or DOD</code>
+          <code class="ruby">    including those found at FAR52.227 and DFARS252.227 et seq. and any successor</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="77">
           
           
-          <code class="ruby">  agencies is acknowledgment of the proprietary rights of any copyright holders</code>
+          <code class="ruby">    regulations thereof. Use of this material by the U.S. Government and/or DOD</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="78">
           
           
-          <code class="ruby">  and contributors, including those of Advanced Micro Devices, Inc., as well as</code>
+          <code class="ruby">    agencies is acknowledgment of the proprietary rights of any copyright holders</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="79">
           
           
-          <code class="ruby">  the provisions of FAR52.227-14 through 23 regarding privately developed and/or</code>
+          <code class="ruby">    and contributors, including those of Advanced Micro Devices, Inc., as well as</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="80">
           
           
-          <code class="ruby">  commercial computer software.</code>
+          <code class="ruby">    the provisions of FAR52.227-14 through 23 regarding privately developed and/or</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="81">
           
           
-          <code class="ruby"></code>
+          <code class="ruby">    commercial computer software.</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="82">
           
           
-          <code class="ruby">  This license forms the entire agreement regarding the subject matter hereof and</code>
+          <code class="ruby"></code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="83">
           
           
-          <code class="ruby">  supersedes all proposals and prior discussions and writings between the parties</code>
+          <code class="ruby">    This license forms the entire agreement regarding the subject matter hereof and</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="84">
           
           
-          <code class="ruby">  with respect thereto. This license does not affect any ownership, rights, title,</code>
+          <code class="ruby">    supersedes all proposals and prior discussions and writings between the parties</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="85">
           
           
-          <code class="ruby">  or interest in, or relating to, this material. No terms of this license can be</code>
+          <code class="ruby">    with respect thereto. This license does not affect any ownership, rights, title,</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="86">
           
           
-          <code class="ruby">  modified or waived, and no breach of this license can be excused, unless done</code>
+          <code class="ruby">    or interest in, or relating to, this material. No terms of this license can be</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="87">
           
           
-          <code class="ruby">  so in a writing signed by all affected parties. Each term of this license is</code>
+          <code class="ruby">    modified or waived, and no breach of this license can be excused, unless done</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="88">
           
           
-          <code class="ruby">  separately enforceable. If any term of this license is determined to be or</code>
+          <code class="ruby">    so in a writing signed by all affected parties. Each term of this license is</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="89">
           
           
-          <code class="ruby">  becomes unenforceable or illegal, such term shall be reformed to the minimum</code>
+          <code class="ruby">    separately enforceable. If any term of this license is determined to be or</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="90">
           
           
-          <code class="ruby">  extent necessary in order for this license to remain in effect in accordance</code>
+          <code class="ruby">    becomes unenforceable or illegal, such term shall be reformed to the minimum</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="91">
           
           
-          <code class="ruby">  with its terms as modified by such reformation. This license shall be governed</code>
+          <code class="ruby">    extent necessary in order for this license to remain in effect in accordance</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="92">
           
           
-          <code class="ruby">  by and construed in accordance with the laws of the State of Texas without</code>
+          <code class="ruby">    with its terms as modified by such reformation. This license shall be governed</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="93">
           
           
-          <code class="ruby">  regard to rules on conflicts of law of any state or jurisdiction or the United</code>
+          <code class="ruby">    by and construed in accordance with the laws of the State of Texas without</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="94">
           
           
-          <code class="ruby">  Nations Convention on the International Sale of Goods. All disputes arising out</code>
+          <code class="ruby">    regard to rules on conflicts of law of any state or jurisdiction or the United</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="95">
           
           
-          <code class="ruby">  of this license shall be subject to the jurisdiction of the federal and state</code>
+          <code class="ruby">    Nations Convention on the International Sale of Goods. All disputes arising out</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="96">
           
           
-          <code class="ruby">  courts in Austin, Texas, and all defenses are hereby waived concerning personal</code>
+          <code class="ruby">    of this license shall be subject to the jurisdiction of the federal and state</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="97">
           
           
-          <code class="ruby">  jurisdiction and venue of these courts.</code>
+          <code class="ruby">    courts in Austin, Texas, and all defenses are hereby waived concerning personal</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="98">
           
           
-          <code class="ruby"></code>
+          <code class="ruby">    jurisdiction and venue of these courts.</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="99">
           
           
-          <code class="ruby">  ============================================================ */</code>
+          <code class="ruby"></code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="100">
           
           
-          <code class="ruby"></code>
+          <code class="ruby">    ============================================================ */</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="101">
           
           
-          <code class="ruby">  /*</code>
+          <code class="ruby"></code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="102">
           
           
-          <code class="ruby">   * For a description of the algorithm and the terms used, please see the</code>
+          <code class="ruby">    /*</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="103">
           
           
-          <code class="ruby">   * documentation for this sample.</code>
+          <code class="ruby">     * For a description of the algorithm and the terms used, please see the</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="104">
           
           
-          <code class="ruby">   *</code>
+          <code class="ruby">     * documentation for this sample.</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="105">
           
           
-          <code class="ruby">   * One invocation of this kernel, i.e one work thread writes two output values.</code>
+          <code class="ruby">     *</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="106">
           
           
-          <code class="ruby">   * Since every pass of this algorithm does width/2 comparisons, each compare</code>
+          <code class="ruby">     * One invocation of this kernel, i.e one work thread writes two output values.</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="107">
           
           
-          <code class="ruby">   * operation is done by one work thread.</code>
+          <code class="ruby">     * Since every pass of this algorithm does width/2 comparisons, each compare</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="108">
           
           
-          <code class="ruby">   *</code>
+          <code class="ruby">     * operation is done by one work thread.</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="109">
           
           
-          <code class="ruby">   * Depending of the direction of sort for the work thread, the output values</code>
+          <code class="ruby">     *</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="110">
           
           
-          <code class="ruby">   * are written either as greater value to left element or lesser value to the</code>
+          <code class="ruby">     * Depending of the direction of sort for the work thread, the output values</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="111">
           
           
-          <code class="ruby">   * left element. Right element and left element are the two elements we are</code>
+          <code class="ruby">     * are written either as greater value to left element or lesser value to the</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="112">
           
           
-          <code class="ruby">   * comparing and &quot;left&quot; is the element with a smaller index into the array.</code>
+          <code class="ruby">     * left element. Right element and left element are the two elements we are</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="113">
           
           
-          <code class="ruby">   *</code>
+          <code class="ruby">     * comparing and &quot;left&quot; is the element with a smaller index into the array.</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="114">
           
           
-          <code class="ruby">   * if direction is CL_TRUE, i.e evaluates to non zero, it means &quot;increasing&quot;.</code>
+          <code class="ruby">     *</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="115">
           
           
-          <code class="ruby">   *</code>
+          <code class="ruby">     * if direction is CL_TRUE, i.e evaluates to non zero, it means &quot;increasing&quot;.</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="116">
           
           
-          <code class="ruby">   * For an explanation of the terms &quot;blockWidth&quot;, &quot;sameDirectionBlockWidth&quot;,</code>
+          <code class="ruby">     *</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="117">
           
           
-          <code class="ruby">   * stage, pass, pairDistance please go through the document shipped with this</code>
+          <code class="ruby">     * For an explanation of the terms &quot;blockWidth&quot;, &quot;sameDirectionBlockWidth&quot;,</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="118">
           
           
-          <code class="ruby">   * sample.</code>
+          <code class="ruby">     * stage, pass, pairDistance please go through the document shipped with this</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="119">
           
           
-          <code class="ruby">   *</code>
+          <code class="ruby">     * sample.</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="120">
           
           
-          <code class="ruby">   * Since an explanation of the terms and the code here would be quite lengthy,</code>
+          <code class="ruby">     *</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="121">
           
           
-          <code class="ruby">   * confusing and will greatly reduce the readability of this kernel, the code</code>
+          <code class="ruby">     * Since an explanation of the terms and the code here would be quite lengthy,</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="122">
           
           
-          <code class="ruby">   * has been explained in detail in the document mentioned above.</code>
+          <code class="ruby">     * confusing and will greatly reduce the readability of this kernel, the code</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="123">
           
           
-          <code class="ruby">   */</code>
+          <code class="ruby">     * has been explained in detail in the document mentioned above.</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="124">
           
           
+          <code class="ruby">     */</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="125">
+          
+          
           <code class="ruby"></code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="125">
+        <li class="covered" data-hits="1" data-linenumber="126">
+          <span class="hits">1</span>
           
-          
-          <code class="ruby">  __kernel void bitonicSort(__global #{type}* theArray, const uint stage,</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="126">
-          
-          
-          <code class="ruby">                            const uint passOfStage, const uint width, const uint direction) {</code>
+          <code class="ruby">    __kernel void bitonicSort(__global #{type}* theArray, const uint stage,</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="127">
           
           
-          <code class="ruby">      uint sortIncreasing = direction;</code>
+          <code class="ruby">                              const uint passOfStage, const uint width, const uint direction) {</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="128">
           
           
-          <code class="ruby">      uint threadId = get_global_id(0);</code>
+          <code class="ruby">        uint sortIncreasing = direction;</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="129">
           
           
-          <code class="ruby"></code>
+          <code class="ruby">        uint threadId = get_global_id(0);</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="130">
           
           
-          <code class="ruby">      uint pairDistance = 1 &lt;&lt; (stage - passOfStage);</code>
+          <code class="ruby"></code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="131">
           
           
-          <code class="ruby">      uint blockWidth   = 2 * pairDistance;</code>
+          <code class="ruby">        uint pairDistance = 1 &lt;&lt; (stage - passOfStage);</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="132">
           
           
-          <code class="ruby"></code>
+          <code class="ruby">        uint blockWidth   = 2 * pairDistance;</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="133">
           
           
-          <code class="ruby">      uint leftId = (threadId % pairDistance)</code>
+          <code class="ruby"></code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="134">
           
           
-          <code class="ruby">                     + (threadId / pairDistance) * blockWidth;</code>
+          <code class="ruby">        uint leftId = (threadId % pairDistance)</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="135">
           
           
-          <code class="ruby"></code>
+          <code class="ruby">                       + (threadId / pairDistance) * blockWidth;</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="136">
           
           
-          <code class="ruby">      uint rightId = leftId + pairDistance;</code>
+          <code class="ruby"></code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="137">
           
           
-          <code class="ruby"></code>
+          <code class="ruby">        uint rightId = leftId + pairDistance;</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="138">
           
           
-          <code class="ruby">      #{type} leftElement = theArray[leftId];</code>
+          <code class="ruby"></code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="139">
           
           
-          <code class="ruby">      #{type} rightElement = theArray[rightId];</code>
+          <code class="ruby">        #{type} leftElement = theArray[leftId];</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="140">
           
           
-          <code class="ruby"></code>
+          <code class="ruby">        #{type} rightElement = theArray[rightId];</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="141">
           
           
-          <code class="ruby">      uint sameDirectionBlockWidth = 1 &lt;&lt; stage;</code>
+          <code class="ruby"></code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="142">
           
           
-          <code class="ruby"></code>
+          <code class="ruby">        uint sameDirectionBlockWidth = 1 &lt;&lt; stage;</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="143">
           
           
-          <code class="ruby">      if((threadId/sameDirectionBlockWidth) % 2 == 1) sortIncreasing = 1 - sortIncreasing;</code>
+          <code class="ruby"></code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="144">
           
           
-          <code class="ruby"></code>
+          <code class="ruby">        if((threadId/sameDirectionBlockWidth) % 2 == 1) sortIncreasing = 1 - sortIncreasing;</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="145">
           
           
-          <code class="ruby">      #{type} greater;</code>
+          <code class="ruby"></code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="146">
           
           
-          <code class="ruby">      #{type} lesser;</code>
+          <code class="ruby">        #{type} greater;</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="147">
           
           
-          <code class="ruby">      if(leftElement &gt; rightElement) {</code>
+          <code class="ruby">        #{type} lesser;</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="148">
           
           
-          <code class="ruby">          greater = leftElement;</code>
+          <code class="ruby">        if(leftElement &gt; rightElement) {</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="149">
           
           
-          <code class="ruby">          lesser  = rightElement;</code>
+          <code class="ruby">            greater = leftElement;</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="150">
           
           
-          <code class="ruby">      } else {</code>
+          <code class="ruby">            lesser  = rightElement;</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="151">
           
           
-          <code class="ruby">          greater = rightElement;</code>
+          <code class="ruby">        } else {</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="152">
           
           
-          <code class="ruby">          lesser  = leftElement;</code>
+          <code class="ruby">            greater = rightElement;</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="153">
           
           
-          <code class="ruby">      }</code>
+          <code class="ruby">            lesser  = leftElement;</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="154">
           
           
-          <code class="ruby"></code>
+          <code class="ruby">        }</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="155">
           
           
-          <code class="ruby">      if(sortIncreasing) {</code>
+          <code class="ruby"></code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="156">
           
           
-          <code class="ruby">          theArray[leftId]  = lesser;</code>
+          <code class="ruby">        if(sortIncreasing) {</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="157">
           
           
-          <code class="ruby">          theArray[rightId] = greater;</code>
+          <code class="ruby">            theArray[leftId]  = lesser;</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="158">
           
           
-          <code class="ruby">      } else {</code>
+          <code class="ruby">            theArray[rightId] = greater;</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="159">
           
           
-          <code class="ruby">          theArray[leftId]  = greater;</code>
+          <code class="ruby">        } else {</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="160">
           
           
-          <code class="ruby">          theArray[rightId] = lesser;</code>
+          <code class="ruby">            theArray[leftId]  = greater;</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="161">
           
           
-          <code class="ruby">      }</code>
+          <code class="ruby">            theArray[rightId] = lesser;</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="162">
           
           
-          <code class="ruby">  }</code>
+          <code class="ruby">        }</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="163">
           
           
-          <code class="ruby">KERNEL</code>
+          <code class="ruby">    }</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="164">
           
           
-          <code class="ruby">  end</code>
+          <code class="ruby">KERNEL</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="165">
           
           
-          <code class="ruby"></code>
+          <code class="ruby">    end</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="166">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="167">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="168">
           
           
           <code class="ruby">end</code>
@@ -10805,8 +10817,8 @@
     <h3>spec/lib/code_generation/task_kernel_generator_spec.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
     <div>
-      <b>26</b> relevant lines. 
-      <span class="green"><b>26</b> lines covered</span> and
+      <b>30</b> relevant lines. 
+      <span class="green"><b>30</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
@@ -11021,70 +11033,106 @@
         <li class="never" data-hits="" data-linenumber="35">
           
           
-          <code class="ruby"></code>
+          <code class="ruby">  end</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="36">
           
           
-          <code class="ruby">  end</code>
+          <code class="ruby"></code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="37">
+        <li class="covered" data-hits="1" data-linenumber="37">
+          <span class="hits">1</span>
           
-          
-          <code class="ruby"></code>
+          <code class="ruby">  context &#39;Sort tasks&#39; do</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="38">
           <span class="hits">1</span>
           
-          <code class="ruby">  context &#39;Undefined tasks&#39; do</code>
+          <code class="ruby">    it &#39;can generate the kernel from components and boilerplate&#39; do</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="39">
           <span class="hits">1</span>
           
-          <code class="ruby">    it &#39;should raise an error when asked to generate the kernel for an undefined task type&#39; do</code>
+          <code class="ruby">      sort = Hadope::Sort.new</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="40">
-          <span class="hits">1</span>
-          
-          <code class="ruby">      class Sometask &lt; Hadope::Task; end</code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="41">
-          <span class="hits">1</span>
-          
-          <code class="ruby">      task = Sometask.new</code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="42">
-          <span class="hits">1</span>
-          
-          <code class="ruby">      generator = TASK_KERNEL_GENERATOR.new task</code>
-        </li>
-      
-        <li class="covered" data-hits="2" data-linenumber="43">
+        <li class="covered" data-hits="2" data-linenumber="40">
           <span class="hits">2</span>
           
-          <code class="ruby">      expect { generator.create_kernel }.to raise_error</code>
+          <code class="ruby">      expect { sort.to_kernel }.to_not raise_error</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="44">
+        <li class="never" data-hits="" data-linenumber="41">
           
           
           <code class="ruby">    end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="45">
+        <li class="never" data-hits="" data-linenumber="42">
           
           
           <code class="ruby">  end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="46">
+        <li class="never" data-hits="" data-linenumber="43">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="44">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  context &#39;Undefined tasks&#39; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="45">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    it &#39;should raise an error when asked to generate the kernel for an undefined task type&#39; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="46">
+          <span class="hits">1</span>
+          
+          <code class="ruby">      class Sometask &lt; Hadope::Task; end</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="47">
+          <span class="hits">1</span>
+          
+          <code class="ruby">      task = Sometask.new</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="48">
+          <span class="hits">1</span>
+          
+          <code class="ruby">      generator = TASK_KERNEL_GENERATOR.new task</code>
+        </li>
+      
+        <li class="covered" data-hits="2" data-linenumber="49">
+          <span class="hits">2</span>
+          
+          <code class="ruby">      expect { generator.create_kernel }.to raise_error</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="50">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="51">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="52">
           
           
           <code class="ruby">end</code>
